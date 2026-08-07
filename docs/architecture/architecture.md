@@ -14,4 +14,4 @@ This establishes the runtime boundary only. Application framework, package/modul
 
 ## Repository structure
 
-[ADR-002](../decisions/ADR-002-define-repository-structure.md) proposes a `src/`-based repository structure with a single first-party Python package namespace. It separates application source, tests, documentation, examples, scripts, and ignored generated artifacts while leaving detailed component boundaries to ADR-003.
+[ADR-002](../decisions/ADR-002-define-repository-structure.md) establishes a `src/`-based repository structure with a single first-party Python package namespace. It separates application source, tests, documentation, examples, scripts, and ignored generated artifacts while leaving detailed component boundaries to ADR-003.

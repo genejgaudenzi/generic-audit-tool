@@ -1,6 +1,6 @@
 # ADR-002: Define Repository Structure
 
-- **Status:** Proposed
+- **Status:** Accepted
 - **Date:** 2026-08-07
 - **Decision:** Adopt a `src/`-based Python source layout with one `generic_audit_tool` package namespace, supported by clearly separated tests, documentation, examples, scripts, and generated local artifacts.
 
@@ -96,4 +96,4 @@ ADR-003 will define the detailed components, contracts, failure behavior, and al
 - CI and repository-rule enforcement
 - Application implementation
 
-No standalone Coding Standards document currently exists. This ADR does not introduce implementation-specific coding rules; it updates structure and placement only.
+No standalone Coding Standards document currently exists, so GEN-10 does not update one. Implementation-specific coding standards remain deferred and are not introduced by ADR-002; this decision updates structure and placement only.
