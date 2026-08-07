@@ -55,7 +55,7 @@ Implement the MVP in Python using CPython. Prefer clear, deterministic, testable
 ## Supported-version policy
 
 - The initial minimum supported runtime is **CPython 3.12**.
-- Support CPython 3.12 and later CPython minor releases while they remain upstream-supported.
+- The minimum supported runtime is CPython 3.12. Additional CPython minor versions become supported once they are included in the project's validation matrix. Support for a minor version ends only through a documented project decision or release.
 - Test the oldest supported CPython version and the newest supported CPython version in the project validation matrix once CI is introduced.
 - Remove an end-of-life Python minor version only in a documented release, after updating the supported-version statement and validation matrix.
 - Alternative Python implementations are not supported initially; compatibility may be evaluated later without changing this decision.
