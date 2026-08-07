@@ -1,12 +1,13 @@
 # Development environment
 
-## Requirements
+## Prerequisite policy
 
-- Ubuntu or another supported local development platform
-- [uv](https://docs.astral.sh/uv/) installed and available on `PATH`
-- Git
+- **CPython:** 3.12 minimum, as defined by [ADR-001](decisions/ADR-001-select-language-runtime.md). Additional CPython minor versions become supported only after they are added to the validation matrix.
+- **uv:** a currently supported stable release, with version 0.12.2 or later required by project configuration. The clean-clone validation used uv 0.12.2.
+- **Git:** a version supported by the target Ubuntu environment. The clean-clone validation used Git 2.53.0.
+- **Ubuntu:** clean-clone validation was performed on Ubuntu 24.04.4 LTS.
 
-The project follows [ADR-001](decisions/ADR-001-select-language-runtime.md): CPython 3.12 is the minimum supported runtime. Additional CPython minor versions become supported only after they are added to the validation matrix. The `.python-version` file asks uv for the current CPython 3.12 patch release.
+The `.python-version` file asks uv for the current CPython 3.12 patch release. `requires-python = ">=3.12"` is the project-level Python requirement; `required-version = ">=0.12.2"` makes the tested minimum uv release enforceable without preventing later supported stable releases.
 
 ## Bootstrap from a clean checkout
 
