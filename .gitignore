@@ -14,6 +14,7 @@ Desktop.ini
 build/
 dist/
 coverage/
+artifacts/
 .cache/
 .tmp/
 tmp/
