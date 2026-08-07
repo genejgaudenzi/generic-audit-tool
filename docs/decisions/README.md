@@ -5,3 +5,4 @@ Architecture Decision Records (ADRs) capture durable technical decisions and the
 | ADR | Status | Summary |
 | --- | --- | --- |
 | [ADR-001: Select Language and Runtime](ADR-001-select-language-runtime.md) | Accepted | Select Python on CPython for the MVP, with a CPython 3.12 minimum. |
+| [ADR-002: Define Repository Structure](ADR-002-define-repository-structure.md) | Proposed | Define a `src/`-based structure and placement rules without implementation. |
