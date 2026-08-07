@@ -10,6 +10,6 @@ Thank you for helping build the Generic Audit Tool.
 
 ## Development workflow
 
-This repository does not yet define a runtime or automated validation command. For documentation and scaffold changes, check links and Markdown formatting where practical, review `git diff`, and confirm only intended files are staged.
+Follow the [development environment guide](docs/development.md) to bootstrap the project and run local checks. For documentation and scaffold changes, check links and Markdown formatting where practical, review `git diff`, and confirm only intended files are staged.
 
 Open changes through a pull request against `main`, with the related Linear issue identifier in its title or description.
