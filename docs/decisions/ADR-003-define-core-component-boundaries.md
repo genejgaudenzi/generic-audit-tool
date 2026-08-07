@@ -1,6 +1,6 @@
 # ADR-003: Define Core Component Boundaries
 
-- **Status:** Proposed
+- **Status:** Accepted
 - **Date:** 2026-08-07
 - **Decision:** Organize the MVP around outer interaction/adaptation concerns, deterministic audit capabilities, and stable domain-result contracts.
 

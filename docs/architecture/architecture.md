@@ -18,7 +18,7 @@ This establishes the runtime boundary only. Application framework, package/modul
 
 ## Component model and data flow
 
-[ADR-003](../decisions/ADR-003-define-core-component-boundaries.md) proposes the conceptual component model. Stable findings and run summaries separate audit results from CLI and report presentation, while the plugin boundary keeps external implementations outside the core dependency graph.
+[ADR-003](../decisions/ADR-003-define-core-component-boundaries.md) establishes the conceptual component model. Stable findings and run summaries separate audit results from CLI and report presentation, while the plugin boundary keeps external implementations outside the core dependency graph.
 
 ```mermaid
 flowchart LR
